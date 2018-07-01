@@ -1,6 +1,4 @@
-// Select color input
 const color = document.querySelector('#colorPicker');
-// Select size input
 const height = document.querySelector('#inputHeight');
 const width = document.querySelector('#inputWidth');
 const sizePicker = document.querySelector('#sizePicker');
@@ -9,8 +7,8 @@ const canvas = document.querySelector('#pixelCanvas');
 function makeGrid() {
     let tr, td;
 
-    var rows = $('input[id="row"]').val(),
-    cols = $('input[id="column"]').val();
+    var rows = $('#inputHeight').val(),
+    cols = $('#inputWidth').val();
    
     for (let i = 0; i < row; i++) {
         tr = document.createElement('tr');
